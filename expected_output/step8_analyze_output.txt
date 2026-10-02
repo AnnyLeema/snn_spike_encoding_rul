@@ -1,0 +1,21 @@
+FD001 lstm            rmse 14.10±0.59 n=3 nasa 332  E 2755.9nJ   noise 15.52 drop 14.95 [14.67, 13.28, 14.34]
+FD001 cnn             rmse 14.89±0.87 n=3 nasa 399  E 1726.7nJ   noise 16.54 drop 16.46 [15.99, 14.83, 13.86]
+FD001 rate            rmse 21.58±1.22 n=3 nasa 1916  E 123.7nJ in 698 recon 0.232 noise 21.84 drop 21.64 [22.9, 21.89, 19.95]
+FD001 ttfs            rmse 28.61±5.97 n=3 nasa 6492  E 53.3nJ in 420 recon 0.072 noise 29.41 drop 30.08 [24.22, 37.06, 24.56]
+FD001 population      rmse 17.19±0.45 n=3 nasa 947  E 277.1nJ in 2520 recon 0.048 noise 16.85 drop 18.10 [16.84, 16.92, 17.82]
+FD001 send-on-delta   rmse 17.81±0.56 n=3 nasa 651  E 76.6nJ in 343 recon 0.028 noise 28.46 drop 19.85 [17.99, 18.39, 17.05]
+FD001 sod-anchored    rmse 16.20±0.29 n=3 nasa 474  E 64.6nJ in 357 recon 0.077 noise 25.81 drop 17.57 [15.95, 16.05, 16.62]
+FD001 level-crossing  rmse 20.35±0.67 n=3 nasa 931  E 61.1nJ in 230 recon 0.036 noise 25.86 drop 23.65 [19.74, 21.27, 20.03]
+FD001 direct          rmse 18.92±2.57 n=3 nasa 1728  E 565.0nJ in 0 recon 0.000 noise 18.77 drop 19.50 [17.23, 16.98, 22.55]
+FD004 lstm            rmse 16.67±1.39 n=3 nasa 1942 unc 28.81 E 2755.9nJ   noise 18.67 drop 17.98 [15.36, 16.07, 18.59]
+FD004 cnn             rmse 17.30±0.41 n=3 nasa 1704 unc 28.90 E 1726.7nJ   noise 19.42 drop 18.46 [16.91, 17.86, 17.13]
+FD004 rate            rmse 24.48±0.62 n=3 nasa 6610 unc 34.98 E 100.8nJ in 717 recon 0.237 noise 24.26 drop 25.47 [23.9, 24.22, 25.34]
+FD004 ttfs            rmse 25.11±0.42 n=3 nasa 8455 unc 35.10 E 42.7nJ in 420 recon 0.075 noise 26.00 drop 30.56 [24.67, 24.99, 25.68]
+FD004 population      rmse 19.63±0.28 n=3 nasa 2693 unc 31.16 E 273.8nJ in 2525 recon 0.049 noise 20.23 drop 20.94 [19.25, 19.72, 19.92]
+FD004 send-on-delta   rmse 23.84±0.19 n=3 nasa 8833 unc 34.75 E 75.6nJ in 271 recon 0.027 noise 41.25 drop 26.25 [23.85, 24.06, 23.6]
+FD004 sod-anchored    rmse 21.56±0.52 n=3 nasa 3655 unc 32.75 E 63.9nJ in 285 recon 0.080 noise 29.33 drop 24.45 [22.11, 21.7, 20.87]
+FD004 level-crossing  rmse 23.86±1.45 n=3 nasa 8626 unc 35.10 E 49.1nJ in 189 recon 0.036 noise 64.16 drop 28.42 [22.12, 23.78, 25.67]
+FD004 direct          rmse 21.14±1.28 n=3 nasa 4241 unc 31.78 E 550.8nJ in 0 recon 0.000 noise 21.55 drop 22.69 [19.34, 22.04, 22.05]
+ranks {'rate': np.float64(5.5), 'ttfs': np.float64(7.0), 'population': np.float64(1.67), 'send-on-delta': np.float64(4.0), 'sod-anchored': np.float64(1.67), 'level-crossing': np.float64(4.83), 'direct': np.float64(3.33)} n cells 6
+friedman FriedmanchisquareResult(statistic=np.float64(29.928571428571416), pvalue=np.float64(4.055673675773286e-05))
+anchored better than plain in 6 of 6 wilcoxon p 0.03125

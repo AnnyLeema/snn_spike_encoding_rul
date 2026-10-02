@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+# Downloaded data (re-created by step2_download_data.py)
+data/
+# Generated results (re-created by steps 7-10)
+results.pkl
+summary.pkl
+figures/
+tables/
+*.zip

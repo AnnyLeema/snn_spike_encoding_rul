@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Encoding Matters: Spike Encodings and a Two-Timescale Spiking Neural Network for RUL Prediction (code)"
+authors:
+  - family-names: "[Surname]"
+    given-names: "[Given name]"
+    affiliation: "[Affiliation]"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/[your-username]/snn-spike-encoding-rul"
+preferred-citation:
+  type: article
+  title: "Encoding Matters: A Systematic Study of Spike Encodings and a Two-Timescale Spiking Neural Network for Energy-Efficient Remaining Useful Life Prediction of Turbofan Engines"
+  authors:
+    - family-names: "[Surname]"
+      given-names: "[Given name]"
+  journal: "[Journal name – under review]"
+  year: 2026
